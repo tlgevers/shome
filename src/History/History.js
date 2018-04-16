@@ -9,18 +9,17 @@ class history extends Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    if (this.props.location.pathname == nextProps.location.pathname) return false;
+    if (this.props.location.pathname === nextProps.location.pathname) return false;
     return true;
   }
 
   render () {
-  let active_class = "";
   let current = "";
-  if (this.props.location.pathname == "/about") current = "About";
-  if (this.props.location.pathname == "/") current = "Home"; 
-  if (this.props.location.pathname == "/contact") current = "Contact";
-  if (this.props.location.pathname == "/search") current = "Search";
-  if (current != "") {
+  if (this.props.location.pathname === "/about") current = "About";
+  if (this.props.location.pathname === "/") current = "Home"; 
+  if (this.props.location.pathname === "/contact") current = "Contact";
+  if (this.props.location.pathname === "/search") current = "Search";
+  if (current !== "") {
     console.log('current true', this.props);
     
   }

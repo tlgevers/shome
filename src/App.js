@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import { Button, ButtonGroup } from "react-bootstrap";
-import Measure from "react-measure";
-import classNames from "classnames";
 
 import "./App.css";
 
@@ -10,12 +8,10 @@ import About from './About/About';
 import TopNav from "./TopNav/TopNav";
 import Contact from "./Contact/Contact";
 import Main from "./Main/Main";
-import Property from "./Property/Property";
 import Navigation from "./Navigation/Navigation";
 import Returntop from './Returntop/Returntop';
 import Search from './Search/Search';
 import Spacer from './Spacer/Spacer';
-import createHistory from "history/createBrowserHistory";
 let google_link =
   "https://www.google.com/maps/place/Southern+Home+Realty+Of+North+Alabama/@34.8039379,-86.9744859,17z/data=!3m1!4b1!4m5!3m4!1s0x88628b42b48d156b:0xb2cc28d86e5998c9!8m2!3d34.8039379!4d-86.9722972";
 

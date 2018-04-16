@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import History from '../History/History';
 import { withRouter } from 'react-router-dom';

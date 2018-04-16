@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-import SlideShow from "../SlideShow/SlideShow";
-import { Button, Grid, Col, Thumbnail, Row } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import { Grid, Col, Thumbnail, Row } from "react-bootstrap";
 import "./Main.css";
-import { Link } from "react-router-dom";
 
 class main extends Component {
   componentDidMount() {}

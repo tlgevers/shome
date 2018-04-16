@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {Media} from 'react-bootstrap';
-import Slideshow from "../SlideShow/SlideShow";
 import "./About.css";
 
 class about extends Component {
@@ -14,11 +13,11 @@ class about extends Component {
             Tennessee. We opened in February 2017 & is home to 4 agents. 3 of
             our agents have 15+ years experience & 1 agent has just obtained
             their license. All of our agents belong to the{" "}
-            <a href="http://www.alabamarealtors.com/" target="_blank">
+            <a href="http://www.alabamarealtors.com/" target="_blank" rel="noopener noreferrer">
               Alabama Association of Realtors{" "}
             </a>
             & the{" "}
-            <a href="http://www.athensalabamarealtors.com/" target="_blank">
+            <a href="http://www.athensalabamarealtors.com/" target="_blank" rel="noopener noreferrer">
               {" "}
               Athens Limestone Association of Realtors.{" "}
             </a>

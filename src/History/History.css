@@ -1,5 +1,4 @@
 .active-page {
-    /* background-image: url('../Assets/Athens/sign-sketch.png'); */
     position: absolute;
     top: 71%;
     width: 18%;
@@ -27,8 +26,8 @@
 }
 
 @keyframes slide-left {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from { transform: rotateX(90deg); }
+    to { transform: rotateX(0deg); }
 }
 
 @media only screen and (max-width:600px) {

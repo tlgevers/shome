@@ -50,7 +50,7 @@
 .contact-card ul {
 	margin: auto;
     position: relative;
-    width: 55%;
+    width: 68%;
 }
 
 .contact-card ul li {
@@ -80,9 +80,16 @@
 		width: 100%;
 		float: none;
 	}
+	.contact-list ul {
+		padding: 0;
+		width: 100%;
+	}
 	.map-container {
 		width: 100%;
 		float: none;
+	}
+	.contact-card ul li span a, .contact-card ul li span a:hover, .contact-card ul li span a:visited {
+		font-size: 14px;
 	}
 }
 

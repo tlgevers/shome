@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Panel, PanelHeading, PanelBody } from "react-bootstrap";
+import { Panel } from "react-bootstrap";
 import "./Contact.css";
 
 import Map from "../Map/Map";

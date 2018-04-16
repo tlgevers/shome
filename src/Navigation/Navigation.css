@@ -127,7 +127,7 @@ h1 {
 }
 
 .img-container {
-    background-image: url('/static/media/historic.59dc659b.jpeg');
+    background-image: url('../Assets/Athens/historic.jpeg');
     height: 440px;
     background-position: center;
     background-repeat: no-repeat;
