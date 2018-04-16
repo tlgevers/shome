@@ -1,0 +1,27 @@
+.fancy-title-main { 
+	font-family: 'Alex Brush', cursive !important;
+	font-size: 46px;
+	text-align: center;
+	opacity: 1;
+	color: white;
+	animation-name: shadow;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;  
+}
+
+.well-lg {
+	border-radius: 20px;
+	background-image: url('../Assets/Athens/historic_cloth.png');
+	background-repeat: no-repeat;
+	background-size: 100% 340%;
+	background-position-y: center;
+	opacity: 0.7;
+}
+
+@keyframes shadow {
+	from { text-shadow: 0px 0px 0px white; }
+	to { text-shadow: 0px 2px 8px white; }
+}
+
+
+

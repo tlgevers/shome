@@ -1,0 +1,76 @@
+.navbar-main {
+	/* background-image: radial-gradient(circle at top right, #286baf, #13304D); */
+	background-image: linear-gradient(to right, cadetblue 80%, #d9edf7);
+	animation-name: fade;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	/* background: linear-gradient(to bottom, #537992b8 -32%, #457594 100%); */
+	/* border-bottom: solid 5px #5D5C61; */
+	/* box-shadow: 0px 5px 5px 1px grey; */
+}
+
+@keyframes fade {
+	from { opacity: 0;}
+	to { opacity: 1}
+}
+
+.btn-success {
+	background-color:#388239;
+	border: 1px solid#388239;
+}
+
+.main-logo {
+	position: relative;
+	bottom: 6px;
+}
+
+a {
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	border-color: none;
+	font-size: medium;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #f5f5f5;
+	background-color: #e0c4a5d1;
+}
+
+.container {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+.form-control {
+	background-color: #dff0d8;
+	border: 1px solid #4b964c;
+	width: 100%;
+	transition: width 2s;
+}
+
+.form-control::-webkit-input-placeholder { color: white; } 
+
+.form-control:focus { 
+	position: relative;
+	color: rgb(85, 85, 85);	
+	background-color: white;
+	border: 1px solid #5fab61;
+	animation-name: widen;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes widen {
+	from { width: 100%; right: 0%; }
+	to { width: 120%; right: 20%; }
+}
+
+@media only screen and (max-width:600px) {
+	.navbar-main {
+		background: cadetblue;
+	}
+}

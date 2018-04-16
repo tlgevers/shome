@@ -1,0 +1,46 @@
+.jumbotron p {
+	text-align: center;
+	color: dimgrey;
+}
+
+.main {
+	position: fixed;
+	overflow-x: hidden;
+	height: calc(100%);
+	width: calc(100%);
+	animation-name: fade_effect;
+	animation-duration: 2s;
+	/* background: #928d9254; */
+	/* background-image: radial-gradient(circle at top right, #6c89ff, #1937a0); */
+}
+
+
+.text-container {
+	position: relative;
+    width: 98%;
+    margin: auto;
+    background: rgb(243, 242, 242);
+    padding: 60px;
+    box-shadow: 5px 3px 4px #ccc;
+}
+
+.text-container-white {
+	background: white;
+}
+
+.panel {
+	/* margin: 20px; */
+}
+
+.panel-body {
+	background: #8c898ecc;
+}
+
+.panel-default {
+	border-color: #8C898E;
+}
+
+@keyframes fade_effect {
+	from {opacity:0;}
+	to {opacity:1;}
+}
